@@ -1,0 +1,176 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Project1
+</name>
+</assembly>
+<members>
+<member name="T:Project1.DataSet1.ARTICLEDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Project1.DataSet1.ARTICLE_HISTORYDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Project1.DataSet1.ARTICLE_REVIEWDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Project1.DataSet1.AUTHORDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Project1.DataSet1.RESEARCH_GROUPDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Project1.DataSet1.RESEARCHERDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Project1.DataSet1.USERNAMEDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Project1.DataSet1.ARTICLERow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Project1.DataSet1.ARTICLE_HISTORYRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Project1.DataSet1.ARTICLE_REVIEWRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Project1.DataSet1.AUTHORRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Project1.DataSet1.RESEARCH_GROUPRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Project1.DataSet1.RESEARCHERRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Project1.DataSet1.USERNAMERow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Project1.DataSet1.ARTICLERowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Project1.DataSet1.ARTICLE_HISTORYRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Project1.DataSet1.ARTICLE_REVIEWRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Project1.DataSet1.AUTHORRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Project1.DataSet1.RESEARCH_GROUPRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Project1.DataSet1.RESEARCHERRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Project1.DataSet1.USERNAMERowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Project1.DataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Project1.DataSet1TableAdapters.ARTICLETableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Project1.DataSet1TableAdapters.ARTICLE_HISTORYTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Project1.DataSet1TableAdapters.ARTICLE_REVIEWTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Project1.DataSet1TableAdapters.AUTHORTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Project1.DataSet1TableAdapters.RESEARCH_GROUPTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Project1.DataSet1TableAdapters.RESEARCHERTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Project1.DataSet1TableAdapters.USERNAMETableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Project1.DataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Project1.DataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Project1.DataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(Project1.DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Project1.DataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(Project1.DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Project1.DataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Project1.DataSet1TableAdapters.TableAdapterManager.UpdateAll(Project1.DataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Project1.DataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Project1.DataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Project1.DataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Project1.Article">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="P:Project1.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Project1.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Project1.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
